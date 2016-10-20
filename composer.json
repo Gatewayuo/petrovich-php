@@ -1,11 +1,16 @@
 {
-    "name": "petrovich/petrovich",
-    "require": {
-        "php": ">=5.3.3"
-    },
+    "name": "asakasinsky/petrovich-php",
+    "description": "",
+    "type": "",
+    "license": "",
+    "version": "master",
+    "authors": [{
+        "name": "Vasily Asakasinsky",
+        "email": "asakasinsky@gmail.com"
+    }],
     "autoload": {
         "psr-4": {
-            "Petrovich\\": ""
+            "asakasinsky\\petrovich\\": ""
         }
     }
 }

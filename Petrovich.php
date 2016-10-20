@@ -1,8 +1,6 @@
 <?php
 
-namespace Petrovich;
-
-use Exception;
+namespace asakasinsky\petrovich;
 
 class Petrovich {
 
@@ -18,15 +16,15 @@ class Petrovich {
     const GENDER_ANDROGYNOUS = 0; // Пол не определен
     const GENDER_MALE = 1; // Мужской
     const GENDER_FEMALE = 2; // Женский
-    
-    private $gender = Petrovich::GENDER_ANDROGYNOUS; //Пол male/мужской female/женский
+
+	private $gender = Petrovich::GENDER_ANDROGYNOUS; //Пол male/мужской female/женский
 
     /**
      * Конструтор класса Петрович
      * загружаем правила из файла rules.json
      */
     function __construct($gender = Petrovich::GENDER_ANDROGYNOUS, $rules_dir = __DIR__) {
-        
+
         $rules_path = $rules_dir.'/rules/rules.json';
         $rules_resourse = fopen($rules_path, 'r');
 
