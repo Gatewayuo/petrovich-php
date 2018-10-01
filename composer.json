@@ -12,8 +12,9 @@
     }
     ],
     "autoload": {
-        "psr-4": {
-            "Gatewayuo\\petrovich\\": ""
+        "psr-0": {
+            "Gatewayuo\\Petrovich": ""
         }
-    }
+    },
+
 }
