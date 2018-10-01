@@ -1,5 +1,5 @@
 {
-    "name": "asakasinsky/petrovich-php",
+    "name": "gatewayuo/petrovich-php",
     "description": "",
     "type": "",
     "license": "",
@@ -7,10 +7,15 @@
     "authors": [{
         "name": "Vasily Asakasinsky",
         "email": "asakasinsky@gmail.com"
-    }],
+    },
+    {
+        "name": "Igor Shesteryakov",
+        "email": "gatewayuo@gmail.com"
+    }
+    ],
     "autoload": {
         "psr-4": {
-            "asakasinsky\\petrovich\\": ""
+            "gatewayuo\\petrovich\\": ""
         }
     }
 }
