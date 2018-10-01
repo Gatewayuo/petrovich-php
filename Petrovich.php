@@ -1,6 +1,6 @@
 <?php
 
-namespace gatewayuo\petrovich;
+namespace Gatewayuo\petrovich;
 
 class Petrovich {
 
